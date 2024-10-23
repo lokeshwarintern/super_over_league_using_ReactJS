@@ -1,0 +1,39 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-ele {
+  height: 100px;
+}
+
+.heading-ele {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .img-ele {
+    height: 200px;
+  }
+  .heading-ele {
+    font-size: 24px;
+  }
+}
